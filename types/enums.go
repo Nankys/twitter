@@ -74,3 +74,9 @@ const (
 	Metric_Playback75Count  = "playback_75_count"
 	Metric_Playback100Count = "playback_100_count"
 )
+
+type VerifyCredentials struct {
+	IncludeEntities bool `json:"include_entities"`
+	SkipStatus      bool `json:"skip_status"`
+	IncludeEmail    bool `json:"include_email"`
+}
