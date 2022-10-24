@@ -9,24 +9,8 @@ import (
 	"encoding/json"
 	"github.com/creachadair/jhttp"
 	"github.com/nankys/twitter"
-	"github.com/nankys/twitter/internal/ocall"
 	"github.com/nankys/twitter/types"
 )
-
-// Settings constructs a status update ("tweet") with the given text.
-// This query requires user-context authorization.
-
-// API: 1.1/account/settings.json
-func Settings(text string) Query {
-	q := Query{
-		Request: &jhttp.Request{
-			Method: "1.1/account/settings.json",
-			Params: make(jhttp.Params),
-		},
-	}
-
-	return q
-}
 
 // Query is a query for list memberships.
 type Query struct {
@@ -47,14 +31,8 @@ func (q Query) Invoke(ctx context.Context, cli *twitter.Client) (*VerifyCredenti
 	return rsp, nil
 }
 
-// A Reply is the response from a Query.
-type Reply = ocall.UsersReply
-
-// verify_credentials use method to test
-// This query requires user-context authorization.
-
 // API: 1.1/account/verify_credentials.json
-func VerifyCredentials(opts CredentialsOpt) Query {
+func VerifyCredentials(opts *CredentialsOpt) Query {
 	q := Query{
 		Request: &jhttp.Request{
 			Method: "1.1/account/verify_credentials.json",
