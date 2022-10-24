@@ -58,9 +58,10 @@ func VerifyCredentials() Query {
 	q := Query{
 		Request: &jhttp.Request{
 			Method: "1.1/account/verify_credentials.json",
-			Params: make(jhttp.Params),
+			Params: jhttp.Params{
+				"include_email": []string{"true"},
+			},
 		},
 	}
-	q.Request.Params.Set("include_email", "true")
 	return q
 }
