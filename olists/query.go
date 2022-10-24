@@ -9,9 +9,9 @@ import (
 	"strconv"
 
 	"github.com/creachadair/jhttp"
-	"github.com/creachadair/twitter"
-	"github.com/creachadair/twitter/internal/ocall"
-	"github.com/creachadair/twitter/types"
+	"github.com/nankys/twitter"
+	"github.com/nankys/twitter/internal/ocall"
+	"github.com/nankys/twitter/types"
 )
 
 // Members constructs a query for the members of a list.

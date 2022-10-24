@@ -29,8 +29,8 @@ import (
 	"strconv"
 
 	"github.com/creachadair/jhttp"
-	"github.com/creachadair/twitter"
-	"github.com/creachadair/twitter/types"
+	"github.com/nankys/twitter"
+	"github.com/nankys/twitter/types"
 )
 
 // Lookup constructs a lookup query for one or more users by ID.  To look up

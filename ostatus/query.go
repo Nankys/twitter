@@ -10,9 +10,9 @@ import (
 	"strconv"
 
 	"github.com/creachadair/jhttp"
-	"github.com/creachadair/twitter"
-	"github.com/creachadair/twitter/internal/otypes"
-	"github.com/creachadair/twitter/types"
+	"github.com/nankys/twitter"
+	"github.com/nankys/twitter/internal/otypes"
+	"github.com/nankys/twitter/types"
 )
 
 // Create constructs a status update ("tweet") with the given text.

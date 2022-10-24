@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/creachadair/jhttp"
-	"github.com/creachadair/twitter/internal/otest"
-	"github.com/creachadair/twitter/olists"
+	"github.com/nankys/twitter/internal/otest"
+	"github.com/nankys/twitter/olists"
 )
 
 func TestUserCall(t *testing.T) {

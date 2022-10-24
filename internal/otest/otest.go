@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/creachadair/jhttp"
-	"github.com/creachadair/twitter"
+	"github.com/nankys/twitter"
 )
 
 var (

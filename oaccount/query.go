@@ -7,9 +7,9 @@ package oaccount
 import (
 	"context"
 	"github.com/creachadair/jhttp"
-	"github.com/creachadair/twitter"
-	"github.com/creachadair/twitter/internal/ocall"
-	"github.com/creachadair/twitter/types"
+	"github.com/nankys/twitter"
+	"github.com/nankys/twitter/internal/ocall"
+	"github.com/nankys/twitter/types"
 )
 
 // Settings constructs a status update ("tweet") with the given text.

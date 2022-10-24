@@ -17,13 +17,13 @@ import (
 	"github.com/dnaeon/go-vcr/v2/recorder"
 
 	"github.com/creachadair/jhttp"
-	"github.com/creachadair/twitter"
-	"github.com/creachadair/twitter/lists"
-	"github.com/creachadair/twitter/query"
-	"github.com/creachadair/twitter/rules"
-	"github.com/creachadair/twitter/tweets"
-	"github.com/creachadair/twitter/types"
-	"github.com/creachadair/twitter/users"
+	"github.com/nankys/twitter"
+	"github.com/nankys/twitter/lists"
+	"github.com/nankys/twitter/query"
+	"github.com/nankys/twitter/rules"
+	"github.com/nankys/twitter/tweets"
+	"github.com/nankys/twitter/types"
+	"github.com/nankys/twitter/users"
 )
 
 var (

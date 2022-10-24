@@ -17,7 +17,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/creachadair/twitter/types"
+	"github.com/nankys/twitter/types"
 )
 
 var _ types.Tweet

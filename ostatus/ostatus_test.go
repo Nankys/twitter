@@ -12,10 +12,10 @@ import (
 
 	"github.com/creachadair/jhttp"
 	"github.com/creachadair/jhttp/auth"
-	"github.com/creachadair/twitter"
-	"github.com/creachadair/twitter/internal/otest"
-	"github.com/creachadair/twitter/ostatus"
-	"github.com/creachadair/twitter/types"
+	"github.com/nankys/twitter"
+	"github.com/nankys/twitter/internal/otest"
+	"github.com/nankys/twitter/ostatus"
+	"github.com/nankys/twitter/types"
 )
 
 var (

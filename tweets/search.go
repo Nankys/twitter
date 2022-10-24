@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/creachadair/jhttp"
-	"github.com/creachadair/twitter/types"
+	"github.com/nankys/twitter/types"
 )
 
 // SearchRecent conducts a search query on recent tweets matching the specified

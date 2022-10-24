@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/creachadair/jhttp"
-	"github.com/creachadair/twitter/types"
+	"github.com/nankys/twitter/types"
 )
 
 // A Reply is a wrapper for the reply object returned by successful calls to

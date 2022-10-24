@@ -7,10 +7,10 @@ import (
 	"testing"
 
 	"github.com/creachadair/jhttp"
-	"github.com/creachadair/twitter"
-	"github.com/creachadair/twitter/rules"
-	"github.com/creachadair/twitter/tweets"
-	"github.com/creachadair/twitter/types"
+	"github.com/nankys/twitter"
+	"github.com/nankys/twitter/rules"
+	"github.com/nankys/twitter/tweets"
+	"github.com/nankys/twitter/types"
 )
 
 func TestStream(t *testing.T) {

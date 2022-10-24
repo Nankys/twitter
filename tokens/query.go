@@ -14,7 +14,7 @@ import (
 
 	"github.com/creachadair/jhttp"
 	"github.com/creachadair/jhttp/auth"
-	"github.com/creachadair/twitter"
+	"github.com/nankys/twitter"
 )
 
 func clientWithAuth(cli *twitter.Client, auth jhttp.Authorizer) *twitter.Client {

@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 
 	"github.com/creachadair/jhttp"
-	"github.com/creachadair/twitter"
-	"github.com/creachadair/twitter/types"
+	"github.com/nankys/twitter"
+	"github.com/nankys/twitter/types"
 )
 
 // SampleStream constructs a streaming sample query that delivers results to f.

@@ -9,7 +9,7 @@ import (
 	"fmt"
 
 	"github.com/creachadair/jhttp"
-	"github.com/creachadair/twitter"
+	"github.com/nankys/twitter"
 )
 
 // DeleteTweet constructs a query to delete the given tweet ID.

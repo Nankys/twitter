@@ -58,11 +58,11 @@ import (
 
 	"github.com/creachadair/jhttp"
 	"github.com/creachadair/jhttp/auth"
-	"github.com/creachadair/twitter"
-	"github.com/creachadair/twitter/internal/otest"
-	"github.com/creachadair/twitter/tokens"
-	"github.com/creachadair/twitter/tweets"
-	"github.com/creachadair/twitter/types"
+	"github.com/nankys/twitter"
+	"github.com/nankys/twitter/internal/otest"
+	"github.com/nankys/twitter/tokens"
+	"github.com/nankys/twitter/tweets"
+	"github.com/nankys/twitter/types"
 )
 
 func debugClient(t *testing.T) *twitter.Client {

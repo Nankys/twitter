@@ -9,10 +9,10 @@ import (
 	"strconv"
 
 	"github.com/creachadair/jhttp"
-	"github.com/creachadair/twitter"
-	"github.com/creachadair/twitter/tweets"
-	"github.com/creachadair/twitter/types"
-	"github.com/creachadair/twitter/users"
+	"github.com/nankys/twitter"
+	"github.com/nankys/twitter/tweets"
+	"github.com/nankys/twitter/types"
+	"github.com/nankys/twitter/users"
 )
 
 // Lookup constructs a query for the metadata of a list by ID.  A successful

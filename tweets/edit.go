@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/creachadair/jhttp"
-	"github.com/creachadair/twitter/types"
+	"github.com/nankys/twitter/types"
 )
 
 // Create constructs a query to create a new tweet from the given settings.
